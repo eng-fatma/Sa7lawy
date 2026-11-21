@@ -1,0 +1,212 @@
+/* تنسيق الحاوية الكبيرة للرحلات */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+
+/* الحاوية الرئيسية */
+.container {
+  
+    display: flex;
+    padding: 150px 10%;
+    gap: 30px;
+}
+
+/* القائمة الجانبية */
+.sidebar {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    height: fit-content;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.filter-group {
+    margin-top: 20px;
+}
+
+.filter-group label {
+    display: block;
+    margin: 10px 0;
+   
+}
+
+/* منطقة المحتوى */
+.content {
+    flex: 3;
+}
+
+.content h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+/* بطاقات الرحلات */
+.tour-card {
+    display: flex;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.tour-card:hover {
+    transform: translateY(-5px);
+}
+
+.tour-card img {
+    width: 250px;
+    object-fit: cover;
+}
+
+.tour-info {
+    padding: 20px;
+    flex: 2;
+}
+
+.tag {
+    background: #ff5a3c;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.tour-info h2 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.tour-price {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5a3c;
+}
+
+.btn-details {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: #ff5a3c;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* التذييل */
+.footer {
+  background-color: #050a3a;
+  color: #fff;
+  padding: 50px 0 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.footer h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+}
+
+/* Newsletter */
+.newsletter {
+  display: flex;
+  margin-top: 10px;
+}
+
+.newsletter input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.newsletter button {
+  padding: 8px 15px;
+  border: none;
+  background-color: #ff7a00;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+.newsletter button:hover {
+  background-color: #e96d00;
+}
+
+/* Bottom */
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  margin-top: 40px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+
+.footer-bottom p {
+  font-size: 13px;
+}
+
+.social a {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+

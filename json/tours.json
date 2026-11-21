@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "title": "Swiss Hotel Dahab",
+    "location": "Dahab, Egypt",
+    "price": 1200,
+    "rating": 4.8,
+    "reviews": 269,
+    "image": "imges/WhatsApp Image 2026-01-26 at 10.57.23 PM (2).jpeg",
+    "description": "Discover the charm of Dahab city."
+  },
+
+  {
+    "id": 2,
+    "title": "Karnak Temple Tour",
+    "location": "Luxor, Egypt",
+    "price": 150,
+    "rating": 4.5,
+    "reviews": 120,
+    "image": "imges/WhatsApp Image 2026-01-26 at 10.57.23 PM (1).jpeg",
+    "description": "Explore Karnak Temple."
+  },
+    {
+    "id": 3,
+    "title": " beatch",
+    "location": "alax, Egypt",
+    "price": 150,
+    "rating": 4.5,
+    "reviews": 120,
+    "image": "imges/WhatsApp Image 2026-01-26 at 10.57.07 PM.jpeg",
+    "description": "beatch."
+  }
+]

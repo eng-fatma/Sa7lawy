@@ -1,0 +1,259 @@
+
+
+     h2{
+    font-size: 25px;
+     }
+
+.wellcome {
+ 
+  width: 100%;
+  height: 200px;
+  background-color: #faede8;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.wellcome h1 {
+  width: 500px;
+  font-size: 48px;
+  font-weight: bold;
+  background: linear-gradient(to right, #EB662B, #4C43C4);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.showimg{
+    padding-top: 85px;
+  display: flex;
+justify-content: space-around;
+width: 100%;
+height: 500px;
+align-items: center;
+background-color: #05073C;
+button{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: #EB662B;
+  
+  background-color: #05073C;
+  size: 3px;
+  border:#EB662B 2px solid;
+}
+img{
+  width: 60%;
+  height: 100%;
+
+}
+}
+
+
+.tour-grid {
+  display: grid;
+  grid-template-columns: 3fr 2fr 3fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "cruise beach city"
+    "cruise museum food"
+    "cruise hiking hiking";
+  gap: 15px;
+  padding: 20px;
+  height: 500px;
+  padding-right: 7%;
+  padding-left:7% ;
+}
+
+.tour-card {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+  background-color: whitesmoke;
+
+
+}
+.tour-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+
+.cruise   { grid-area: cruise;   background-image: url('../imges/WhatsApp Image 2026-01-26 at 10.57.18 PM (1).jpeg'); }
+.beach    { grid-area: beach;    background-image: url('../imges/WhatsApp Image 2026-01-26 at 10.57.08 PM (1).jpeg'); }
+.city     { grid-area: city;     background-image: url('../imges/WhatsApp Image 2026-01-26 at 10.57.13 PM (1).jpeg'); }
+.museum   { grid-area: museum;   background-image: url('../imges/WhatsApp Image 2026-01-26 at 10.57.15 PM.jpeg'); }
+.food     { grid-area: food;     background-image: url('../imges/download.jpg'); }
+.hiking   { grid-area: hiking;   background-image: url('../imges/WhatsApp Image 2026-01-26 at 10.57.19 PM.jpeg'); }
+
+.pop{
+  margin-top: 10% ;
+  display: flex;
+  width: 80%;
+ justify-content: space-between;
+ margin-left: 10%;
+ margin-right: 10%;
+ 
+h2{
+color:#05073C ;
+font-size: 25px;
+
+
+}
+ a {
+  text-decoration: none;
+  font-size: 20px;
+
+  color:#05073C ;
+   display: flex;
+   align-items: center;
+
+}
+
+}
+  
+.choose{
+  margin: 5% 10%;
+    color: #05073C;
+  
+  h2{
+    font-size: 25px;
+  }
+.choo{
+
+
+  display: flex;
+  justify-content: space-around;
+  gap: 5%;
+
+i{
+  color: #EB662B;
+  font-size: 30px;
+
+}
+h4{
+  font-size: 17px ;
+  
+}
+p{
+   font-size: 15px ;
+}
+}
+}
+
+
+ .trip{
+ background-color: #faede8;
+  padding:4%  10%;
+  color: #05073C;
+
+  .header{
+     display: flex;
+     justify-content: space-between;
+       padding-bottom:4%; 
+     a{
+        display: flex;
+   align-items: center;
+    text-decoration: none;
+  color: inherit;
+     }
+      h2{
+    font-size: 25px;
+  }
+  }
+
+.tr{
+
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+.tripdiv{
+   background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  transition: 0.3s;
+    text-decoration: none;
+  color: inherit;
+}
+img{
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+p{
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+.underline{
+  display: flex;
+  justify-content: space-between;
+
+}
+.place{
+  color: gray;
+  font-size: small;
+}
+
+.tripdiv:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+hr{
+  padding:0 10%;
+  width: 60%;
+}
+ }
+
+
+
+ 
+
+ .reviews{
+  padding: 3%;
+
+  text-align: center;
+  background-color: whitesmoke;
+  color: #05073C;
+  .hash{
+    color: #EB662B;
+    font-size: 50px;
+  }
+.review-images img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.5;
+  margin-top: 5%;
+}
+
+.review-images img.active {
+  border: 2px solid orange;
+  opacity: 1;
+}
+}
+
+
+
+
+
+
+
+
+
